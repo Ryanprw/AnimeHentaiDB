@@ -1,7 +1,17 @@
 * {
   margin: 0;
 }
+@media screen and (max-width:680px){
 
+	#maincontent{
+		width: auto;
+		float: none;
+	}
+	#sidebar{
+		width: auto;
+		float: none;
+	}
+}
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -29,7 +39,7 @@ body {
 
 .logo {
   font-size: 30px;
-  color: #4dbf00;
+  color: #e6b52f;
 }
 
 .menu-container {
@@ -121,8 +131,9 @@ body {
 }
 
 .featured-content {
-  height: 50vh;
-  padding: 50px;
+
+  padding: 20px;
+
 }
 
 .featured-title {
@@ -130,13 +141,13 @@ body {
 }
 
 .featured-desc {
-  width: 500px;
-  color: lightgray;
+  width: 400px;
+  color: rgb(245, 245, 245);
   margin: 30px 0;
 }
 
 .featured-button {
-  background-color: #4dbf00;
+  background-color: #3f73e6;
   color: white;
   padding: 10px 20px;
   border-radius: 10px;
@@ -185,6 +196,7 @@ body {
   height: 200px;
   object-fit: cover;
   border-radius: 20px;
+  margin: 0;
 }
 
 .movie-list-item-title {
@@ -213,14 +225,14 @@ body {
 
 .movie-list-item-button {
   padding: 10px;
-  background-color: #4dbf00;
+  background-color: #5691e9;
   color: white;
   border-radius: 10px;
   outline: none;
   border: none;
   cursor: pointer;
   position: absolute;
-  bottom: 20px;
+  bottom: 10px;
   left: 50px;
   opacity: 0;
   transition: 1s all ease-in-out;
